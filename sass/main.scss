@@ -1,7 +1,6 @@
 @import './variables';
 @import './allstyle';
 
-
 .navbar {
     background-color: #fff;
     width: 100%;
@@ -276,9 +275,12 @@ input[type="checkbox" i] {
     width: 100%;
     background-color: var(--light-navy);
     padding: 140px 0;
+    
     .faqs-content {
         width: 70%;
         margin: 0 auto;
+        border-radius: 30px;
+
         .faqs-head {
             text-align: center;
             h1 {
@@ -291,7 +293,7 @@ input[type="checkbox" i] {
             }
             p {
                 font-size: var(--fz-md);
-                margin-bottom: 20px;
+                margin-bottom: 40px;
             }
         }
         .faqs-cards {
@@ -299,6 +301,8 @@ input[type="checkbox" i] {
             grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
             border: 1px solid #e7e7e7;
             box-shadow: 0px 0px 5px 2px #eeeeee;
+            overflow: hidden;
+            border-radius: 30px;
             .faq-card {
                 padding: 40px;
                 border-bottom: 1px solid #e7e7e7;
@@ -667,6 +671,7 @@ input[type="checkbox" i] {
         border-bottom: 1px solid #e7e7e7;
         background-color: var(--light);
         cursor: pointer;
+        border-radius: 30px;
 
         &:hover {
             background-color: #fafafa;

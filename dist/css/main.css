@@ -47,6 +47,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   background-color: #fff;
   width: 100%;
@@ -326,6 +330,7 @@ input[type=checkbox i] {
 .faqs .faqs-content {
   width: 70%;
   margin: 0 auto;
+  border-radius: 30px;
 }
 .faqs .faqs-content .faqs-head {
   text-align: center;
@@ -340,13 +345,15 @@ input[type=checkbox i] {
 }
 .faqs .faqs-content .faqs-head p {
   font-size: var(--fz-md);
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .faqs .faqs-content .faqs-cards {
   display: grid;
   grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
   border: 1px solid #e7e7e7;
   box-shadow: 0px 0px 5px 2px #eeeeee;
+  overflow: hidden;
+  border-radius: 30px;
 }
 .faqs .faqs-content .faqs-cards .faq-card {
   padding: 40px;
@@ -681,6 +688,7 @@ input[type=checkbox i] {
     border-bottom: 1px solid #e7e7e7;
     background-color: var(--light);
     cursor: pointer;
+    border-radius: 30px;
   }
   .faq-card:hover {
     background-color: #fafafa;
