@@ -331,6 +331,7 @@ input[type=checkbox i] {
 .faqs .faqs-content {
   width: 70%;
   margin: 0 auto;
+  border-radius: 30px;
 }
 .faqs .faqs-content .faqs-head {
   text-align: center;
@@ -352,6 +353,7 @@ input[type=checkbox i] {
   grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
   border: 1px solid #e7e7e7;
   box-shadow: 0px 0px 5px 2px #eeeeee;
+  border-radius: 30px;
   overflow: hidden;
   border-radius: 30px;
 }
